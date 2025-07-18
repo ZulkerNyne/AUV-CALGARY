@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Software Subteam | AUV Calgary</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+    .aquatic-gradient {
+      background: radial-gradient(circle at 30% 40%, #007f9d, #00313b, #000000);
+    }
+  </style>
+</head>
+<body class="text-white font-sans aquatic-gradient">
+
+  <!-- Navbar -->
+  <header class="bg-black bg-opacity-90 p-4 shadow-md sticky top-0 z-50">
+    <div class="max-w-6xl mx-auto flex justify-between items-center">
+      <h1 class="text-2xl font-bold text-cyan-500">AUV Calgary</h1>
+      <nav class="space-x-6 text-sm md:text-base">
+        <a href="homepage.html" class="hover:text-cyan-500">Home</a>
+        <a href="aboutus.html" class="hover:text-cyan-500">About</a>
+        <a href="competitions.html" class="hover:text-cyan-500">Competitions</a>
+        <a href="team.html" class="hover:text-cyan-500">Team</a>
+        <a href="vehicles.html" class="hover:text-cyan-500">Vehicles</a>
+        <a href="homepage.html#join" class="hover:text-cyan-500">Join Us</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="py-16 px-6 max-w-6xl mx-auto flex flex-col lg:flex-row items-center gap-12">
+    <div class="rounded-xl overflow-hidden lg:w-1/2 shadow-lg">
+      <img src="images/software.jpg" alt="Software Subteam Group Photo" class="w-full object-cover">
+    </div>
+    <div class="lg:w-1/2 text-center lg:text-left">
+      <h2 class="text-4xl font-extrabold text-white mb-6">Software Subteam</h2>
+      <p class="text-lg text-gray-200 leading-relaxed">
+        The software subteam develops the intelligent systems that bring the AUV to life. From low-level firmware to high-level autonomy, they write the code that powers the vehicle’s perception, control, and decision-making. Members work with embedded systems, sensor integration, and real-time data processing to ensure reliable underwater performance. The subteam also builds mission-planning algorithms, vision pipelines, and custom tooling to support testing and deployment. Their work enables the AUV to operate independently in challenging environments without surface communication.
+      </p>
+    </div>
+  </section>
+
+  <!-- Team Grid -->
+  <section class="py-16 px-6 max-w-6xl mx-auto">
+    <h3 class="text-3xl font-bold text-cyan-400 mb-10 text-center">Meet the Software Team</h3>
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-10">
+      
+      <!-- Member -->
+      <div class="bg-gray-800 rounded-xl overflow-hidden shadow-md text-center p-4">
+        <img src="images/shahed.jpg" alt="Shahed" class="w-full h-64 object-cover rounded-lg mb-4">
+        <h4 class="text-xl font-semibold text-white">Shahed</h4>
+        <p class="text-gray-400">Software<br>Year</p>
+      </div>
+
+      <!-- Repeat for each member -->
+      <div class="bg-gray-800 rounded-xl overflow-hidden shadow-md text-center p-4">
+        <img src="images/ahmed.jpg" alt="Ahmed" class="w-full h-64 object-cover rounded-lg mb-4">
+        <h4 class="text-xl font-semibold text-white">Ahmed</h4>
+        <p class="text-gray-400">CS<br>Year</p>
+      </div>
+
+      <div class="bg-gray-800 rounded-xl overflow-hidden shadow-md text-center p-4">
+        <img src="images/mariam.jpg" alt="Mariam" class="w-full h-64 object-cover rounded-lg mb-4">
+        <h4 class="text-xl font-semibold text-white">Mariam</h4>
+        <p class="text-gray-400">CS<br>Year</p>
+      </div>
+
+      <div class="bg-gray-800 rounded-xl overflow-hidden shadow-md text-center p-4">
+        <img src="images/Nyne.jpg" alt="ZulkerNyne" class="w-full h-64 object-cover rounded-lg mb-4">
+        <h4 class="text-xl font-semibold text-white">Md Zulker Nyne</h4>
+        <p class="text-gray-400">CS & MATH<br>Year</p>
+      </div>
+
+      <!-- Add more members similarly -->
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-black text-center p-6 text-sm text-gray-500 mt-12">
+    &copy; 2025 AUV Calgary. All rights reserved.
+  </footer>
+
+</body>
+</html>
